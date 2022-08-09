@@ -1,4 +1,4 @@
-from django.db import connection
+
 import pika 
 
 connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
